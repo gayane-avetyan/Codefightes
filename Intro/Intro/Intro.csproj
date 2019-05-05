@@ -49,6 +49,7 @@
     <Compile Include="AlmostIncreasingSequence.cs" />
     <Compile Include="CenturyFromYear.cs" />
     <Compile Include="CheckPalindrome.cs" />
+    <Compile Include="CommonCharacterCount.cs" />
     <Compile Include="MatrixElementsSum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
