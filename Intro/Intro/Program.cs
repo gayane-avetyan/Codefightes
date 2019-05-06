@@ -10,18 +10,19 @@ namespace Intro
     {
         static void Main(string[] args)
         {
-            string[] picture = { "abc", "ded" };
-            string asterix = new string('*', picture[0].Length + 2);
-            string[] result = new string[picture.Length + 2];
-            result[0] = asterix;
-            for (int i = 1; i < result.Length - 1; i++)
+            int[] a = { 832, 998, 148, 570, 533, 561, 894, 147, 455, 279 };
+            int[] b = { 832, 570, 148, 998, 533, 561, 455, 147, 894, 279 };
+            int[] c = new int[a.Length];
+            for (int i = 0; i < a.Length; i++)
             {
-                result[i] = "*" + picture[i - 1] + "*";
+                c[i] = a[i] - b[i];
             }
-            result[picture.Length + 1] = asterix;
-            foreach (var item in result)
+            var result = c.Where(i => i != 0);
+            var checking = a.Except(b);
+            Console.WriteLine(checking.Count());
+            if (result.Count() == 2 && result.Sum() == 0 || result.Count() == 0)
             {
-                Console.WriteLine(item);
+
             }
         }
     }

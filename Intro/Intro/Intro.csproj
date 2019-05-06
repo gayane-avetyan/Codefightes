@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Add.cs" />
+    <Compile Include="AddBorder.cs" />
     <Compile Include="AdjacentElementsProduct.cs" />
     <Compile Include="AllLongestStrings.cs" />
     <Compile Include="AlmostIncreasingSequence.cs" />
