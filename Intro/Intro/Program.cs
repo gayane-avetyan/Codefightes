@@ -10,7 +10,10 @@ namespace Intro
     {
         static void Main(string[] args)
         {
-
+            int[] a = { 50, 60, 60, 45, 70 };
+            int[] b = new int[2];
+            var b0 = a.Where((arr, index) => index % 2 == 0).Sum();
+            Console.WriteLine(b0);
         }
     }
 }

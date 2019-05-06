@@ -54,7 +54,9 @@
     <Compile Include="MatrixElementsSum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReverseInParentheses.cs" />
     <Compile Include="ShapeArea.cs" />
+    <Compile Include="SortByHeight.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
