@@ -49,6 +49,7 @@
     <Compile Include="AllLongestStrings.cs" />
     <Compile Include="AlmostIncreasingSequence.cs" />
     <Compile Include="AlternatingSums.cs" />
+    <Compile Include="AreSimilar.cs" />
     <Compile Include="CenturyFromYear.cs" />
     <Compile Include="CheckPalindrome.cs" />
     <Compile Include="CommonCharacterCount.cs" />
