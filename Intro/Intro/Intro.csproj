@@ -49,6 +49,7 @@
     <Compile Include="AllLongestStrings.cs" />
     <Compile Include="AlmostIncreasingSequence.cs" />
     <Compile Include="AlternatingSums.cs" />
+    <Compile Include="AreEquallyStrong.cs" />
     <Compile Include="AreSimilar.cs" />
     <Compile Include="ArrayChange.cs" />
     <Compile Include="CenturyFromYear.cs" />
@@ -56,6 +57,7 @@
     <Compile Include="CommonCharacterCount.cs" />
     <Compile Include="IsLucky.cs" />
     <Compile Include="MatrixElementsSum.cs" />
+    <Compile Include="PalindromeRearranging.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReverseInParentheses.cs" />
