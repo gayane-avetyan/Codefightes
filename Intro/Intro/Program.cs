@@ -10,17 +10,17 @@ namespace Intro
     {
         static void Main(string[] args)
         {
-            string inputString = "172.16.254.1";
-            var dotCount = inputString.Where(i => i == '.').Count();
-            if (dotCount != 3)
+            int[] inputArray = { 3, 5, 6, 7, 9 };
+            Array.Sort(inputArray);
+            int result = 1;
+            for (int i = 0; i < inputArray.Length; i++)
             {
-                Console.WriteLine(false);
-                return;
+                while (inputArray[i] % result == 0)
+                {
+                    result++;
+                }
             }
-            var nums = inputString.Split('.');
-            Console.WriteLine(nums.Any(i => int.TryParse(i, out int result) || result < 0 || result > 255));
-
-
+            Console.WriteLine(result);
         }
     }
 }
