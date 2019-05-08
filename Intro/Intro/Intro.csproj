@@ -52,6 +52,7 @@
     <Compile Include="AreEquallyStrong.cs" />
     <Compile Include="AreSimilar.cs" />
     <Compile Include="ArrayChange.cs" />
+    <Compile Include="ArrayMaximalAdjacentDifference.cs" />
     <Compile Include="CenturyFromYear.cs" />
     <Compile Include="CheckPalindrome.cs" />
     <Compile Include="CommonCharacterCount.cs" />
