@@ -11,7 +11,8 @@ namespace Intro
             List<int> sum = new List<int>();
             for (int i = 1; i < inputArray.Length - 1; i++)
             {
-                sum.Add(Math.Max(Math.Abs(inputArray[i] - inputArray[i - 1]), Math.Abs(inputArray[i] - inputArray[i + 1])));
+                sum.Add(Math.Max(Math.Abs(inputArray[i] - inputArray[i - 1]),
+                                 Math.Abs(inputArray[i] - inputArray[i + 1])));
             }
             return sum.Max();
         }
